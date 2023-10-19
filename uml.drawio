@@ -1,43 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T13:48:58.639Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="GBm0Vq037cjvLkmiKMDf" version="22.0.4" type="google">
+<mxfile host="app.diagrams.net" modified="2023-10-19T03:01:19.914Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Zm4rWV_shBjPHOxCLrcr" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="fz9Msz9a4HgZ77eEVPWV-6" value="Task" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="fz9Msz9a4HgZ77eEVPWV-6" value="Task" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="520" y="640" width="280" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="fz9Msz9a4HgZ77eEVPWV-8" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;id: int&lt;br&gt;name: String&lt;br&gt;content: String&lt;br&gt;status: boolean&lt;br&gt;difficulty: int&lt;br&gt;userList: List&amp;lt;User&amp;gt;&lt;br&gt;deadline: LocalDate&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="fz9Msz9a4HgZ77eEVPWV-6">
+        <mxCell id="fz9Msz9a4HgZ77eEVPWV-8" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;id: int&lt;br&gt;name: String&lt;br&gt;content: String&lt;br&gt;status: boolean&lt;br&gt;difficulty: int&lt;br&gt;userList: List&amp;lt;User&amp;gt;&lt;br&gt;deadline: LocalDate&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="fz9Msz9a4HgZ77eEVPWV-6" vertex="1">
           <mxGeometry y="40" width="280" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="DmNSkDeyAiDAmZ03BFZZ-8" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;getId(): Long&lt;br&gt;getName(): String&lt;br&gt;getContent(): String&lt;br&gt;getStatus(): boolean&lt;br&gt;setDone(): void&lt;br&gt;getDificulty(): int&lt;br&gt;addUser(User): void&lt;br&gt;removeUser(Long): void&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="fz9Msz9a4HgZ77eEVPWV-6">
+        <mxCell id="DmNSkDeyAiDAmZ03BFZZ-8" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;getId(): Long&lt;br&gt;getName(): String&lt;br&gt;getContent(): String&lt;br&gt;getStatus(): boolean&lt;br&gt;setDone(): void&lt;br&gt;getDificulty(): int&lt;br&gt;addUser(User): void&lt;br&gt;removeUser(Long): void&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="fz9Msz9a4HgZ77eEVPWV-6" vertex="1">
           <mxGeometry y="200" width="280" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="fz9Msz9a4HgZ77eEVPWV-0" value="Project" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="fz9Msz9a4HgZ77eEVPWV-0" value="Project" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="160" y="640" width="280" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="fz9Msz9a4HgZ77eEVPWV-2" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;id: Long&lt;br&gt;name: String&lt;br&gt;userList: List&amp;lt;User&amp;gt;&lt;br&gt;taskList: List&amp;lt;Task&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="fz9Msz9a4HgZ77eEVPWV-0">
+        <mxCell id="fz9Msz9a4HgZ77eEVPWV-2" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;id: Long&lt;br&gt;name: String&lt;br&gt;userList: List&amp;lt;User&amp;gt;&lt;br&gt;taskList: List&amp;lt;Task&amp;gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="fz9Msz9a4HgZ77eEVPWV-0" vertex="1">
           <mxGeometry y="40" width="280" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="DmNSkDeyAiDAmZ03BFZZ-7" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;getId(): Long&lt;br&gt;getName(): String&lt;br&gt;getProgress(): int&lt;br&gt;addTask(Task): void&lt;br&gt;removeTask(Long): void&lt;br&gt;addUser(User): void&lt;br&gt;removeUser(Long): void&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;" vertex="1" parent="fz9Msz9a4HgZ77eEVPWV-0">
+        <mxCell id="DmNSkDeyAiDAmZ03BFZZ-7" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;getId(): Long&lt;br&gt;getName(): String&lt;br&gt;getProgress(): int&lt;br&gt;addTask(Task): void&lt;br&gt;removeTask(Long): void&lt;br&gt;addUser(User): void&lt;br&gt;removeUser(Long): void&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;align=left;" parent="fz9Msz9a4HgZ77eEVPWV-0" vertex="1">
           <mxGeometry y="200" width="280" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="fz9Msz9a4HgZ77eEVPWV-9" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="fz9Msz9a4HgZ77eEVPWV-9" value="User" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=29;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="880" y="640" width="280" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="fz9Msz9a4HgZ77eEVPWV-11" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;id: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;name: String&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" vertex="1" parent="fz9Msz9a4HgZ77eEVPWV-9">
+        <mxCell id="fz9Msz9a4HgZ77eEVPWV-11" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;id: int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;name: String&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="fz9Msz9a4HgZ77eEVPWV-9" vertex="1">
           <mxGeometry y="29" width="280" height="171" as="geometry" />
         </mxCell>
-        <mxCell id="DmNSkDeyAiDAmZ03BFZZ-9" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;getId(): Long&lt;br&gt;getName(): String&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="fz9Msz9a4HgZ77eEVPWV-9">
+        <mxCell id="DmNSkDeyAiDAmZ03BFZZ-9" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;getId(): Long&lt;br&gt;getName(): String&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="fz9Msz9a4HgZ77eEVPWV-9" vertex="1">
           <mxGeometry y="200" width="280" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="DmNSkDeyAiDAmZ03BFZZ-0" value="Calendar" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="DmNSkDeyAiDAmZ03BFZZ-0" value="Calendar" style="swimlane;fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1240" y="640" width="280" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="DmNSkDeyAiDAmZ03BFZZ-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="DmNSkDeyAiDAmZ03BFZZ-0">
+        <mxCell id="DmNSkDeyAiDAmZ03BFZZ-10" value="expireSoonTaskList: List&amp;lt;Task&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="DmNSkDeyAiDAmZ03BFZZ-0" vertex="1">
           <mxGeometry y="40" width="280" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="DmNSkDeyAiDAmZ03BFZZ-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="DmNSkDeyAiDAmZ03BFZZ-0">
+        <mxCell id="DmNSkDeyAiDAmZ03BFZZ-11" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="DmNSkDeyAiDAmZ03BFZZ-0" vertex="1">
           <mxGeometry y="200" width="280" height="240" as="geometry" />
         </mxCell>
       </root>
