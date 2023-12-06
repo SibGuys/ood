@@ -1,14 +1,24 @@
 package it.sibguys.entities;
 
+import java.time.Duration;
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Project {
-    private long id;
-    private String name;
-    private List<User> userList;
-    private List<Task> taskList;
-    private LocalDate deadline;
+    private final long id;
+    private final String name;
+    private final List<User> userList;
+    private final List<Task> taskList;
+    private final LocalDate deadline;
+
+    public Project(long id, String name, LocalDate deadline) {
+        this.name = name;
+        this.id = id;
+        this.deadline = deadline;
+        userList = new ArrayList<>();
+        taskList = new ArrayList<>();
+    }
 
     public Long getId() {
         return this.id;
@@ -19,7 +29,15 @@ public class Project {
     }
 
     public int getProgress() {
-        return 0;
+        int done = 0;
+        int all = 0;
+        for (Task task : taskList) {
+            if (task.getStatus()) {
+                done += task.getDifficulty();
+            }
+            all += task.getDifficulty();
+        }
+        return done / all;
     }
 
     public void addTask(Task task) {
@@ -35,9 +53,15 @@ public class Project {
     }
 
     public long getRestDays() {
-        return 1L;
+        return Duration.between(LocalDate.now(), deadline).toDays();
     }
-    public List<User> getUsersByProfession(String job){
 
+    public List<User> getUsersByProfession(String job) {
+        List<User> profUsers = new ArrayList<>();
+        for (User user : userList) {
+            if (user.getProfession().equals(job))
+                profUsers.add(user);
+        }
+        return profUsers;
     }
 }
