@@ -15,7 +15,7 @@ public class Calendar {
         return allTasks.stream().filter(x -> x.getRestDays() <= 1).collect(Collectors.toList());
     }
 
-    public List<Task> getTaskListExpireNextSevenDays(int n) {
+    public List<Task> getTaskListExpireNextNDays(int n) {
         return allTasks.stream().filter(x -> x.getRestDays() <= n).collect(Collectors.toList());
     }
 }

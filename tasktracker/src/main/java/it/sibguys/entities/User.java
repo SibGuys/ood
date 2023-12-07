@@ -13,6 +13,7 @@ public class User {
         taskList = new ArrayList<>();
         this.name = name;
         this.id = id;
+        this.profession = profession;
     }
 
     public long getId() {
@@ -30,7 +31,8 @@ public class User {
     public void addTask(Task task) {
         taskList.add(task);
     }
-    public void removeTask(Task task){
+
+    public void removeTask(Task task) {
         taskList.remove(task);
     }
 }

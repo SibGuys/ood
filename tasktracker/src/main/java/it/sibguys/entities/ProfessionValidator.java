@@ -1,6 +1,8 @@
 package it.sibguys.entities;
 
-public class ProfessionValidator {
+import it.sibguys.validators.IProfessionValidator;
+
+public class ProfessionValidator implements IProfessionValidator {
     private Professions professions;
 
     public ProfessionValidator(Professions professions) {
