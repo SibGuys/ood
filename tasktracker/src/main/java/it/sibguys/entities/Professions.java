@@ -23,4 +23,5 @@ public class Professions {
     public List<String> getProfessionList() {
         return professionList;
     }
+    // TODO professionValidator + professions
 }

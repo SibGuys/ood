@@ -9,7 +9,8 @@ public class User {
     private String profession;
     private final List<Task> taskList;
 
-    public User(String name, String profession, long id) {
+    // TODO UserFactory with profession validate
+    public User(long id, String name, String profession) {
         taskList = new ArrayList<>();
         this.name = name;
         this.id = id;
