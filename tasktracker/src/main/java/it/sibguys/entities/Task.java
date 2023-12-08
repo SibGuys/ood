@@ -4,6 +4,7 @@ import it.sibguys.entities.user.User;
 
 import java.time.Duration;
 import java.time.LocalDate;
+import java.time.Period;
 
 public class Task {
     private long id;
@@ -52,11 +53,15 @@ public class Task {
         assigneeUser = user;
     }
 
+    public User getAssigneeUser() {
+        return assigneeUser;
+    }
+
     public void removeUser() {
         assigneeUser = null;
     }
 
     public long getRestDays() {
-        return Duration.between(LocalDate.now(), deadline).toDays();
+        return Period.between(LocalDate.now(), deadline).getDays();
     }
 }
