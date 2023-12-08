@@ -1,5 +1,7 @@
 package it.sibguys.entities;
 
+import it.sibguys.entities.user.User;
+
 import java.time.Duration;
 import java.time.LocalDate;
 
