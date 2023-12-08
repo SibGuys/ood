@@ -1,4 +1,6 @@
-package it.sibguys.entities;
+package it.sibguys.entities.user;
+
+import it.sibguys.entities.Task;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +11,6 @@ public class User {
     private String profession;
     private final List<Task> taskList;
 
-    // TODO UserFactory with profession validate
     public User(long id, String name, String profession) {
         taskList = new ArrayList<>();
         this.name = name;

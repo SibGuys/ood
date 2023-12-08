@@ -1,9 +1,11 @@
 package it.sibguys.entities;
 
+import it.sibguys.validators.IProfessionValidator;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Professions {
+public class Professions implements IProfessionValidator {
     private final List<String> professionList;
 
     public Professions() {
@@ -20,8 +22,8 @@ public class Professions {
         professionList.remove(job);
     }
 
-    public List<String> getProfessionList() {
-        return professionList;
+    @Override
+    public boolean validate(String professionName) {
+        return professionList.contains(professionName);
     }
-    // TODO professionValidator + professions
 }
